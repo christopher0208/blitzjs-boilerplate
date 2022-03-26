@@ -1,4 +1,4 @@
-import saveMeme from "app/memes/mutations/saveMeme"
+  import saveMeme from "app/memes/mutations/saveMeme"
 import getMemes from "app/memes/queries/getMemes"
 import { default as _deleteMeme } from "app/memes/mutations/deleteMeme"
 import { useMutation, useQuery } from "blitz"

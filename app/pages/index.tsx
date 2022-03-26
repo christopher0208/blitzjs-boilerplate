@@ -1,11 +1,12 @@
 import { useMeme } from "app/core/hooks/useMeme"
-import { BlitzPage, Image } from "blitz"
+import { BlitzPage, dynamic, Image } from "blitz"
+
 
 const Home: BlitzPage = () => {
   const { memes, saveMeme, deleteMeme } = useMeme()
 
   return (
-    <div>
+    <div className="bg">
       <div>
         {memes?.map((meme) => (
           <div className="mb-10 bg-gray-200" key={meme.id}>

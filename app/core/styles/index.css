@@ -17,3 +17,7 @@
 .description {
   @apply text-center;
 }
+
+.bg {
+    background-color: #141D72;
+}
